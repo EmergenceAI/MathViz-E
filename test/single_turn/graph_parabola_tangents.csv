@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Find the two tangents to the parabola y equals x squared minus 2x plus 5 that go through the point one, three.","y = 2(x-1)+3, y=5-2x"
+1,"Graph the parabola y equals x squared and its tangent line passing through the point (0, negative four) on the same coordinate plane.","y = 4x-4, y=-4x-4"
+2,Graph the parabola with equation y equals negative two x squared plus four x minus one. Draw a tangent line passing through the point with coordinates one and three.,y = -4x+7
+3,"Graph the parabola y equals the quantity x minus 2 squared minus 1 and a tangent line passing through the point five, four.",y = 2x-6
+4,"Graph the parabola y equals x squared minus 3x plus 2 and draw a tangent line that passes through the point negative two, negative four.",y = x-2
+5,"Graph the parabola with equation y equals negative x squared plus five x minus 6, and also graph the tangent line that passes through the point negative seven, one.",y = -3x-22
+6,"Graph the parabola y equals x squared plus two x plus 1 and draw a tangent line passing through the point (0,0).",y = 4x
+7,"Plot the parabola y equals three x squared minus four x plus two and a tangent line passing through the point three, five. Graph both the parabola and the tangent line.",y = 26x-73
+8,"Graph the parabola with equation y equals negative x squared plus three x minus two, and also graph a tangent line passing through the point 1, 4 that touches the parabola at a single point.",y = 5x-1
+9,"Graph the parabola y equals the quantity x plus one squared minus three, and the tangent line passing through the point one, negative three.",y = 8x-11

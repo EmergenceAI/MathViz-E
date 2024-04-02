@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'CircularXX';
+    src: url('https://assets.website-files.com/627028e6193b2d840a066eab/627028e6193b2d9dd2066edf_CircularXXWeb-Book.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'CircularXXLight';
+    src: url('https://assets.website-files.com/627028e6193b2d840a066eab/627028e6193b2d710b066eda_CircularXXWeb-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: auto;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: clip;
+}
+
+.container-overall {
+    width: 100vw;
+    height: 100vh;
+    bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start; /* Add this line */
+}
+
+.desmos-container {
+    width: 100vw;
+    height: 80%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;    align-content: center;
+    align-items: center;
+    justify-content: left; /* Add this line */
+    margin-right:auto;
+    margin-left: 5%;
+}
+
+.calculator{
+width:60vw;
+height:80vh;
+max-width: 1600px;
+min-width: 480px;
+}
+
+.overlay {
+    position: absolute;
+    top: auto;
+    transition: right 0.3s ease-in-out;
+    width: 30vw;
+    max-width: 30vw;
+    height: 70%;
+    background-color: rgba(255,255,255,0.8);
+    padding: 2vh;
+    font-size: 1vw;
+    color: white;
+    font-family: 'CircularXXLight';
+    pointer-events: all;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+    border-radius: 10px; /* Add border-radius to the message content */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.overlay.show {
+    right: 0;
+}
+.overlay.hide {
+    right: -33vw;
+}
+.hidden{
+    opacity:0;
+}
+
+
+.simplefont {
+    font-family: 'CircularXXLight';
+    font-size: 1vw;
+    color: white;
+    padding: 1vh;
+    font-weight: normal;
+}
+
+.overlayicon{
+z-index: 100;
+position: absolute;
+top: 2.0vh;
+right: 1.5vh;
+width: 2vw;
+height: 2vw;
+min-height: 30px;
+min-width: 30px;
+background-color: rgba(30,30,30,0.6);
+background-color: transparent;
+cursor: pointer;
+border-radius: 50%;
+box-shadow: gray 0px 0px 5px;
+opacity: 0.9;
+transition: transform 0.1s ease-in-out;
+}
+
+.overlayicon:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow:  purple 0px 0px 5px;
+}
+.overlayicon:active{
+    transform: scale(0.95);
+}
+
+
+.collapsed{
+background-image: url('expand.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.expanded{
+background-image: url('collapse.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.user-input {
+    width: 100vw;
+    position: absolute;
+    height: 8vh;
+    margin-bottom: 1vh;
+    bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    justify-content: flex-start;
+}
+
+#user-message {
+    width: 50vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 20vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    height: 90%;
+    font-size: 2.5vmin;
+    font-family: 'circularXX';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #000000;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    text-align: left;
+    outline: none;
+    resize: none;
+    border: '1px solid lightgray' !important;
+}
+
+.highlight {
+    box-shadow: 8px 8px 8px rgba(255, 0, 128, 0.12), inset 1px 1px 1px rgba(128, 0, 128, 0.34), inset -1px -1px 2px rgba(128, 25, 128, 0.4);
+    border: 1px solid purple;
+}
+.default {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.12), inset 1px 1px 2px rgba(255, 255, 255, 0.64), inset -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+.chattext{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'CircularXX';
+    padding: 5%;
+    min-height: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.20) 100%);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.12), inset 1px 1px 2px rgba(255, 255, 255, 0.64), inset -1px -1px 2px rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    color: black;
+    border: 1px solid orange;
+  }
+.chat-right-align{
+    text-align: right;
+    justify-content: flex-start;
+}
+.chat-left-align{
+    text-align: left;
+    justify-content: flex-end;
+}
+
+.chat{
+    width: 60%;
+    color: black;
+    text-wrap:wrap ;
+    font-family: 'CircularXX';
+    font-size: 14px;
+    margin-left: 1%;
+    margin-right: 1%;
+    word-wrap: break-word;
+  }
+
+#chat-box {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    height: 90%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:1%;
+    padding-bottom:1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+  
+  .agent1{
+    background-image: url('wolframicon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+  
+  .agent2{
+    background-image: url('mathvizicon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+
+  .agent3{
+    background-image: url('othericon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+  .user{
+    background-image: url('usericon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+
+  
+  .icon{
+    width: 45px;
+    border-radius: 50%;
+    height: 45px;
+
+  }
+
+  .chat-input{
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top:2vh;
+  }
+
+  .clear-chat{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 1vh;
+    font-size: 1.5vmin;
+    font-family: 'CircularXX';
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: transform 0.05s ease-in-out;
+  }
+  .clear-chat:hover{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    transform: scale(1.03);
+  }
+  .clear-chat:active{
+    transform: scale(0.97);
+  }
+

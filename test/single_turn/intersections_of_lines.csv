@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Graph y equals two x minus two and x equals four. Find the intersection.,"y=2x-2, x=4, (4, 6)"
+1,Graph the system y equals five x plus two and y equals negative x plus eight. Show where the lines intersect.,"y=5x+2, y=-x+8, (1, 7)"
+2,"Graph eight x minus four y equals sixteen and eight x plus four y equals sixteen, and show their intersection.","8x-4y=16, 8x+4y=16, (2,0)"
+3,Graph the line with a slope of six and a y-intercept of four. Graph the line with a slope of two and a y-intercept of negative four. Find their intersection.,"y = 6x + 4, y = 2x - 4, (-2, -8)"
+4,Graph the functions y equals x and y equals x squared minus 3x. Find their intersections.,"y = x, y = x^2 - 3x, (0,0), (4,4)"
+5,Graph y equals x and y equals x squared minus six. Find the intersection.,"y=x, y=x^2 - 6, (3, 3), (-2, -2)"
+6,Graph x plus y equals five and y equals x squared plus x plus five. Find the intersections.," x + y = 5, y = x^2 + x + 5, (0, 5), (-2, 7)"
+7,"First, graph the equation y equals two x plus three. Then, graph the equation y equals x squared minus two x. Finally, find the points where the two graphs intersect.","y=2x+3, y=x^2-2x, (4.646, 12.292), (-0.646, 1.708)"
+8,Find the intersection of y equals four x squared and y equals three x plus one.,"y=4x^2, y=3x+1, (1, 4)"
+9,Find the intersections of y equals two x squared plus five and y equals six x plus one.,"y=2x^2 + 5, y=6x + 1, (1, 7), (2, 13)"

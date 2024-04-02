@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Graph a unit circle with center at two, five.",(x-2)^2 + (y-5)^2 =1
+1,Plot a circle of radius two at the origin.,x^2 + y^2 = 4
+2,"Graph a circle with a radius of five-sixths and a center at three point six, seven point eight.",(x-3.6)^2 + (y-7.8)^2 = 25/36
+3,"Graph a circle with a radius of four units and a center at one, eight.",(x-1)^2+(y-8)^2 = 16
+4,Plot a circle of radius ten.,x^2 + y^2 = 100
+5,"Graph a circle at negative five, nine.",(x+5)^2 + (y-9)^2 = 1
+6,"Plot a circle with a radius of one-half at negative seven, negative three.",(x+7)^2 + (y+3)^2 = 1/4
+7,"Draw a circle with center at 6, negative four and a radius of three.",(x-6)^2 + (y+4)^2 = 9
+8,"Draw a circle with a radius of one-fourth centered at the point 0, negative eight.",x^2 + (y+8)^2 = 1/16
+9,"Plot a circle with a radius of five units centered at two, zero.",(x-2)^2 + y^2 = 25

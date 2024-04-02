@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Graph a line that contains the point four three and has a slope of one half.,y=1/2(x) +1
+1,Graph y minus five equals negative two times the quantity x minus one.,y-5 = -2(x-1)
+2,Graph the line with slope two and y-intercept three.,y=2x + 3
+3,Graph the line with slope four point five and y-intercept negative eight.,y=4.5x - 8
+4,"Graph a line with a slope of four that goes through the point three, zero.",y=4x - 12
+5,Show the line with an x-intercept of eight and a slope of three-fourths.,y= (3/4)x - 6 
+6,Draw the line with a y-intercept of one-half and a slope of three.,y=3x + 1/2
+7,Graph the line that goes through two one and five negative eight. ,y= -3x+7
+8,Show the line with a y-intercept of negative one point five and a slope of negative four.,y= -4x-1.5
+9,"Graph the line that goes through the point with coordinates one, five and the point with coordinates negative two, nine.",y= (-4/3)x + 19/3

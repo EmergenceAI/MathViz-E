@@ -1,0 +1,11 @@
+﻿id,query,ground truth,
+query 1,Graph y equals x to the power of one third plus four. ,y = x^(1/3) + 4,y = x^(1/3) + 4
+query 1,Graph its inverse ,"y = (x-4)^3, y = x^(1/3) + 4","y = (x-4)^3, y = x^(1/3) + 4"
+query 2 ,Plot the natural log of four x ,y = ln(4x),y = ln(4x)
+query 2 ,Plot the inverse ,"y = e^(x)/4, y = ln(4x)","y = e^(x)/4, y = ln(4x)"
+query 3 ,f of x equals the square root of the quantity seven x minus three ,y = sqrt(7x-3),y = sqrt(7x-3)
+query 3 ,Graph the inverse of f of x ,"y = (x^2+3)/7, y = sqrt(7x-3)","f^{-1}(x) = \\frac{1}{7} * (x^2 + 3), y = sqrt(7x-3)"
+query 4,Plot f of x equals e to the power of x minus six ,y = e^x - 6,y = e^x - 6
+query 4,Plot the inverse ,"y = e^x - 6, y = ln(x+6)","f(x) = e^x - 6, f^(-1)x = ln(x+6)"
+query 5,Graph sin of x plus nine,y = sin(x) + 9,y = sin(x) + 9
+query 5,Graph the inverse,"y = sin^(-1)(x-9), y = sin(x) + 9","y = sin^(-1)(x-9), y = sin(x) + 9"

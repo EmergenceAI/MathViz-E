@@ -1,0 +1,24 @@
+﻿id,query,ground truth
+query 1,"Graph a unit circle with a center at two, five",(y-5)^2 + (x-2)^2 = 1
+query 1,Translate the circle up one unit and to the right eight units,(y-6)^2 + (x-10)^2 = 1
+query 2,"Plot a circle with a radius of one-half at negative seven, negative three",(x+7)^2 + (y+3)^2 = 1/4
+query 2,Dilate the circle about its center by a factor of two,(x+7)^2 + (y+3)^2 = 1
+query 2,Translate the circle seven units to the left,x^2 + (y+3)^2 = 1
+query 3 ,Graph a circle with a radius of twelve,x^2 + y^2 = 144
+query 3 ,Decrease radius to four,x^2 + y^2 = 16
+query 4,"Circle at six, five",(x-6)^2 + (y-5)^2 = 1
+query 4,"Shift center to one, two ",(x-1)^2 + (y-2)^2 = 1
+query 5,"Draw a circle at five, two with a radius of three",(x-5)^2+(y-2)^2 = 9
+query 5,Draw a concentric circle with a radius of five,"(x-5)^2+(y-2)^2 = 9, (x-5)^2+(y-2)^2 = 25"
+query 5,Increase the smaller circle's radius to four,"(x-5)^2+(y-2)^2 = 16, (x-5)^2+(y-2)^2 = 25"
+query 6,"Graph two circles with radius four, one at the origin and the other at seven, seven ","x^2 + y^2 = 16, (x-7)^2 + (y-7)^2 = 16"
+query 6,Increase the radius of the circle on the right to ten,"x^2 + y^2 = 16, (x-7)^2 + (y-7)^2 = 100"
+query 6,"Shift both circles to three, negative nine ","(x-3)^2 + (y+9)^2 = 16, (x-3)^2 + (y+9)^2 = 100"
+query 7 ,"Graph a circle centered at negative three, four with a radius of five.",(x+3)^2 + (y-4)^2 = 25
+query 7 ,"Shift the circle's center to one, one. ",(x-1)^2 + (y-1)^2 = 25
+query 8 ,"Graph a circle with radius one half at two, two. ",(x-2)^2 + (y-2)^2 = .25
+query 8 ,Reflect the circle over the y-axis. ,(x+2)^2 + (y-2)^2 = .25
+query 9 ,"Draw two circles at the origin, with a radius of two and five","x^2 + y^2 = 4, x^2 + y^2 = 25"
+query 9 ,"Shift them to eight, three","(x-8)^2 + (y-3)^2 = 4, (x-8)^2 + (y-3)^2 = 25"
+query 10,Graph a circle that goes through the points negative three four and negative three ten. ,(x+3)^2 + (y-7)^2=9
+query 10,"Shift the center to two, two. ",(x-2)^2 + (y-2)^2 = 9 

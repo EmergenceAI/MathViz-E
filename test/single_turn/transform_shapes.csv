@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Reflect the point two, one across the x-axis","(-2, 1), (-2, -1), y=0"
+1,Dilate a circle with a radius of two units by a factor of four.,x^2 + y^2 = 64
+2,"Shift a circle centered at eight, three to the left by six and down one.",(x-2)^2 + (y-2)^2 = 1
+3,"Plot rectangle EFGH with coordinates negative three, three; five, three; five, negative three; negative three, negative three and its reflection over the line y equals x minus five.","polygon((-3, 3), (5, 3), (5, -3), (-3, -3)), polygon((8, -8), (2, -8), (2, 0), (8, 0))"
+4,"Plot the triangle with vertices at negative two, negative two,  negative three, negative seven, and negative six, negative two on a graph. Then, rotate the triangle counterclockwise by ninety degrees about the origin and plot the new image on the same graph.","polygon((-2, -2), (-3, -7), (-6, -2)), polygon((2, -2), (7, -3), (2, -6))"
+5,"Stretch a circle centered at one, zero by a factor of ten.",(x-1)^2 + y^2 = 100
+6,"Compress the circle centered at two, six with a radius of nine by a factor of three.",(x-2)^2 + (y-6)^2 = 9
+7,"Translate a circle of radius ten centered at (five, five) by three units to the right can be spoken as ""Shift a circle with a radius of ten and centered at (five, five) three units to the right.""",(x-8)^2 + (y-5)^2 = 100
+8,Move a circle of radius one half up seven units.,x^2 + (y-7)^2 = 1/4
+9,Shrink a circle with a radius of eight by a factor of two.,x^2 + y^2 = 16

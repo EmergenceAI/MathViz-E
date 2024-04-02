@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Graph the system of equations y equals x plus 3 and y equals two-fifths x, and then provide the solution.","y=x+3, y=(2/5)x, (-5, -2)"
+1,"Graph the equations y equals two x minus two and x equals four. Then, find the point where the two lines intersect and type the solution.","y=2x-2, x=4, (4, 6)"
+2,Graph the system of equations y equals five x plus two and y equals negative x plus eight. Find the solution to the system of equations.,"y=5x+2, y=-x+8, (1, 7)"
+3,Graph eight x minus four y equals sixteen and eight x plus four y equals sixteen. Find the solution to the system of equations.,"8x-4y=16, 8x+4y=16, (2,0)"
+4,Graph y = x -4 and 5y-6x = 8. Find the solution. ,"5y-6x=8, y = x-4, (-28, -32)"
+5,Graph 7x - y = 3 and x + y= 5. Find the intersection,"7x - y = 3, x + y= 5, (1, 4)"
+6,"Maria buys apples and bananas at the supermarket. She buys 15 fruits in total, and the number of apples is twice the number of bananas. Write a system of equations to find the number of apples, x, and the number of bananas, y, she bought. ","x + y = 15, x = 2y, (10, 5)"
+7,"A movie theater sells adult tickets for $10 and child tickets for $6. One day, the theater sold 120 tickets and made $960 from the sales. With x as the number of adult tickets and y as the number of child tickets, graph a system of equations to show how many tickets of each type were sold. ","x + y = 120, 10x + 6y = 960, (60, 60)"
+8,A chemist has a solution that is 10% salt and another solution that is 40% salt. She wants to obtain 100 liters of a 25% salt solution. How many liters of each solution should she mix together? Use x for number of liters of the 10% solution and y for number of liters of the 40% solution. ,"x + y = 100, .10x + .40y = .25*100, (50, 50)"
+9,"A school is selling hamburgers and hot dogs to raise money. Each hamburger sells for $3 and each hot dog sells for $5. The school wants to raise exactly $800, and they plan to sell 200 items. How many hamburgers and hot dogs should they sell to meet their goals? Use x for hamburgers and y for hot dogs. ","x + y = 200, 3x + 5y = 800, (100, 100)"

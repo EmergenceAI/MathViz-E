@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+query 1,Graph f of x equals five x cubed plus three x squared minus five ,f(x) = 5x^3 + 3x^2 - 5
+query 1,Find the zeroes ,"f(x) = 5x^3 + 3x^2 - 5, (.834, 0)"
+query 2 ,Plot f of x equals eight x cubed minus three,f(x) = 8x^3 - 3
+query 2 ,Find the x-intercepts ,"f(x) = 8x^3 - 3, (.721, 0)"
+query 3 ,"Plot the polynomial with roots negative three, four, and nine",f(x) = (x+3)(x-4)(x-9)
+query 3 ,Find the y-intercept and plot it ,"f(x) = (x+3)(x-4)(x-9), (0, 108)"
+query 4,Graph f of x equals three x squared minus ten ,f(x) = 3x^2 - 10
+query 4,What are the zeros? ,"f(x) = 3x^2 - 10, (1.83, 0), (-1.83, 0)"
+query 5,Find the y-intercept of y equals ten x cubed minus three x squared plus four,"y = 10x^3 - 3x^2 + 4 , (0, 4)"
+query 5,Find the zeroes ,"y = 10x^3 - 3x^2 + 4 , (0, 4), (-.65, 0)"

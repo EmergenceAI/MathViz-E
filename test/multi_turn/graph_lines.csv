@@ -1,0 +1,12 @@
+﻿id,query,ground truth
+query 1,Graph a line with a slope of four and y-intercept of three. ,y = 4x + 3
+query 1,Change the slope to two. ,y = 2x + 3
+query 2 ,"Plot a line that goes through one, three and four, eight. ",y = 5x/3 + 4/3
+query 2 ,Plot a parallel line through the origin. ,"y = 5x/3, y = 5x/3 + 4/3"
+query 3,Graph  y equals two x plus nine,y = 2x+9
+query 3,Graph a perpendicular line with the same y-intercept ,"y = -x/2 + 9, y = 2x+9"
+query 3,Now graph a parallel line with a y-intercept of two,"y = -x/2 + 9, y = 2x+9, y =-x/2 + 2"
+query 4,"Graph a line through one, zero and three, eight",y = 4x-4
+query 4,Now change the y-intercept to two ,y = 4x +2
+query 5,Plot y equals nine x plus four,y = 9x + 4
+query 5,Plot its perpendicular line with a y-intercept at four,"y = -x/9 + 4, y = 9x + 4"

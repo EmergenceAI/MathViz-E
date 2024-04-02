@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Consider the function f of x equals three x minus four. Find the inverse function inverse f of x, and graph both f of x and inverse f of x on the same coordinate plane. ","y = (x+4)/3, y=3x-4"
+1,"Find the inverse function of f of x equals two over x, and plot both f of x and its inverse function on the same coordinate plane.",y = 2/x
+2,Find the inverse function of f of x equals x cubed plus two and graph both f of x and its inverse on the same coordinate plane.,"y = (x-2)^{1/3}, y = x^3 + 2"
+3,"To complete this task, you need to find the inverse function of f of x equals square root of the quantity two x plus three, which is denoted as inverse f of x. Then, you need to plot both f od x and inverse f of x on the same set of axes.","y = (x^2-3)/2, y=\sqrt{2x+3}"
+4,"To complete this task, you need to find the inverse function of f of x equals negative five x plus seven. Then, you need to graph both f of x and inverse f of x on the same coordinate plane.","y = (-x+7)/5, y = -5x+7"
+5,"Find the inverse function of f of x equals e to the power of the quantity five x plus four minus one, and graph both f of x and its inverse on the same set of axes.","y = (\ln{x+1}-4)/5, y = e^{5x+4}-1"
+6,"Consider the function f of x equals one divided by the quantity x minus two. Determine the inverse function f inverse of x, and graph both f of x and f inverse of x on the same coordinate plane.","y = 1/x+2, y=1/(x-2)"
+7,"Find the inverse function of f of x equals logarithm base three of x, and plot both f of x and its inverse function on the same set of axes.","y = 3^x, y = \log_3{x}"
+8,"Find the inverse function of f of x equals natural logarithm of open parenthesis four x squared minus one close parenthesis, and graph both f of x and its inverse on the same coordinate plane.","y = +-\sqrt{e^x+1}/2, y=\ln{4x^2-1}"
+9,Graph the sine function and its inverse on the same axes. ,y = sin^{-1}(x)

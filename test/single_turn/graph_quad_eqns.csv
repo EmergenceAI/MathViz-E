@@ -1,0 +1,16 @@
+﻿id,query,ground truth
+0,"Graph the system of equations: Equation one is y equals x. Equation two is y equals x squared minus three x. Determine the coordinates of the intersection point, if any.","y = x, y = x^2 - 3x, (0,0), (4,4)"
+1,"Graph y equals two x plus three, then graph y equals x squared minus two x, and finally find the intersections.","y=2x+3, y=x^2-2x, (-0.646, 1.708), (4.646, 12,292)"
+2,The system of equations consists of two equations. The first equation is y equals three x minus two. The second equation is y equals negative two x squared plus five x plus one.,"y = 3x - 2, y = -2x^2 + 5x + 1, (1.823, 3,469), (-0.823, -4.469)"
+3,Graph the system of equations: Equation 1 is y equals x squared minus four. Equation 2 is y equals negative two x plus three. Find the intersections,"y = x^2 - 4, y = -2x + 3, (-3.828, 10.657), (1.828, -0.657)"
+4,"The system of equations consists of two equations. The first equation is y equals two x plus five, and the second equation is y equals x squared plus three x minus two. Find the intersections","y = 2x + 5, y = x^2 + 3x - 2, (-3.193, -1.385), (2.193, 9.385)"
+5,The system of equations consists of two equations. The first equation is y equals x squared minus x. The second equation is y equals negative three x plus two. Find the intersections," y = x^2 - x, y = -3x + 2, (-2.732, 10.196), (0.732, -0.196)"
+6,"Graph the system of equations:
+Equation 1: y equals two x squared minus three x plus one
+Equation 2: y equals three x plus two. Find the intersections","y = 2x^2 - 3x + 1, y=3x+2, (3.158, 11.475), (-0.158, 1.525)"
+7,The system of equations consists of two equations. The first equation is y equals negative x squared plus 2x plus 3. The second equation is y equals 4x minus 1. Find the intersections,"y = -x^2 + 2x + 3, y = 4x-1, (-3.236, -13.944), (1.236, 3.944)"
+8,The system of equations consists of two equations. The first equation is y equals x squared plus 2x minus 1. The second equation is y equals negative 2x plus 5. Find the intersections,"y = x^2 + 2x - 1, y= -2x+5, (-5.162, 15.325), (1.162, 2.675)"
+9,Graph the system of equations: Equation 1 is y equals 2x plus 1. Equation 2 is y equals x squared minus 3x. Find the intersections,"y = 2x + 1, y = x^2-3x, (-0.193, 0.615), (5.193, 11.385)"
+10,"Graph and solve the following system of equations: the quantity x minus two squared plus the quantity y minus three squared equals sixteen, and x plus y minus one equals zero","(x-2)^2 + (y-3)^2 = 16, x+y-1 = 0, (-2, 3), (2, -1)"
+11,Function f is defined as f of x equals 1 over two x and function g is defined as g of x equals x squared. Determine the x coordinate of their intersection.,"f(x)=1/(2x), g(x)=x^2, x=0.794"
+12,"How many points of intersection does the given system of equations have? y equals one minus x squared, y equals two minus x","y=1-x^2, y=2-x"

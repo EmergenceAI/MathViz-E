@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,A salesperson is paid $100 per week and $3 for each additional sale. She wants to make at least $200 this week. Graph an inequality showing the number of sales she must make to meet her goal. ,200 <= 100 + 3x
+1,Graph 5x + y < 400. ,5x + y < 400
+2,Graph the inequality x over six plus y over nine is greater than five. ,x/6 + y/9 > 5
+3,Graph the inequality y is greater than or equal to seven x minus two. ,y >= 7x - 2
+4,"Michael has a $50 gift card to a restaurant that sells burritos and tacos. He cannot spend more than the value of the gift card. At the restaurant, burritos cost $7 and tacos cost $4. With burritos as x and tacos as y, graph the inequality showing how many burritos and tacos he can buy with his gift card. ",50 >= 7x + 4y
+5,Graph four x plus eight y is less than twenty-four.,4x + 8y < 24
+6,Graph the solution to two x is less than four ,2x < 4
+7,"Johnathan runs a store selling knitted clothing. He has 5000 yards of yarn to use. A hat takes 150 yards of yarn to knit, and a shirt takes 1000 yards. With number of hats as x and number of shirts as y, graph an inequality showing the number of hats and shirts Johnathan can knit with the amount of yarn he has. ",5000 >= 150x + 1000y 
+8,"Jennifer is moving all the books in her office. She has 200 books to move. A small box can hold 20 books, while a large box can hold 50. With number of small boxes as x and number of large boxes as y, graph the inequality showing how many boxes she needs to move her books. ",200 <= 20x + 50y 
+9,Graph y < 7x-90,y < 7x-90

@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Reflect y equals five x minus four across the y-axis.,y = -5x-4
+1,Shift x squared down by four and to the right by three.,y=(x-3)^2-4
+2,Reflect the function of x cubed along the y-axis and then shift it up by three units.,y=3-x^3
+3,Horizontally squash the absolute value of x minus 8 by a factor of 4.,y=abs(4x)-8
+4,"Move x to the power of one-third up by four, then scale it vertically by a factor of one-half.",y=(1/2)x^{1/3}+4
+5,"Shift absolute value of x to the right by five, reflect it across the x-axis, then shift it down by two, and finally reflect it across the y-axis.",y= -abs (-x-5)-2
+6,Shift x to the power of one-half by four units to the right and then reflect it across the y-axis.,y=\sqrt{(-x-4)}
+7,"Stretch two times the quantity of x minus four, plus four, vertically by four.",y=2(4x-4)+4
+8,Reflect the function log of the quantity x plus five minus one along the x-axis and the y-axis.,y=1-\log{5-x}
+9,Translate x squared horizontally to the left by three.,y=(x+3)^2

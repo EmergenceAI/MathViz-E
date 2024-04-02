@@ -1,0 +1,13 @@
+﻿id,query,ground truth
+0,"Graph the circle with center negative seven, five and radius two.",(x+7)^2 + (y-5)^2 = 4
+1,Graph the circle the quantity x plus one squared plus y squared equals eighty one,(x+1)^2 + y^2 =81
+2,"Graph the circle with center at five, two  and radius four.",(x-5)^2 + (y-2)^2 = 16
+3,"Graph the circle with center at negative two, negative one and radius seven on Desmos.",(x+2)^2 + (y+1)^2 = 49
+4,"Graph a circle with a radius of five-sixths units and a center at (three point six, seven point eight).",(x-3.6)^2 + (y-7.8)^2 = 25/36
+5,"Graph a circle with a radius of four units and a center at two, five.",(x-2)^2+(y-5)^2 =16
+6,"Graph a circle with a radius of ten units and a center at one point five, zero.",(x-1.5)^2 + y^2 = 100
+7,"Graph a circle with a radius of one-half units and a center at negative two, negative eight.",(x+2)^2 + (y+8)^2 = 1/4
+8,"Graph a circle with a radius of three-fifths units and a center at negative three, nine.",(x+3)^2 + (y-9)^2 = 9/25
+9,"Graph a unit circle at seven, one.",(x-7)^2 + (y-1)^2 = 1
+10,Graph a circle that goes through the points two eight and negative one five. ,(x-0.5)^2+(y-6.5)^2=9/2
+11,Graph a circle that goes through the points negative three four and negative three ten. ,(x+3)^2 + (y-7)^2=9

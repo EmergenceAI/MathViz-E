@@ -1,0 +1,10 @@
+﻿id,query,ground truth
+1,Graph the function f of x equals two x cubed minus five x squared plus three x minus one and find the x-intercepts or zeros of the polynomial.," f(x) = 2x^3 - 5x^2 + 3x - 1, x=1.829"
+2,Let p of x be equal to two x cubed minus fifteen x squared plus twenty-nine x minus twenty. Graph p of x. ,y= 2x^3-15x^2+29x-20
+3,Let p of x equals two x cubed minus fifteen x squared plus twenty nine x minus twenty. Graph p of x. ,p(x) =2x^3 - 15x^2+29x-20
+4,Let f of x equals three times the quantity x plus four squared. Find the y intercept of f of x and graph it., y = 3(x+4)^2
+5,"Given the equation y equals x to the fourth power minus three x cubed plus two x squared plus x minus one, graph the polynomial function and determine the number of zeros it has.",y=x^(4)-3x^(3)+2x^(2)+x-1
+6,The polynomial function g of x equals x cubed minus 4x squared plus 5x minus 2 has a zero at x equals 2. Find the other zeros and plot the function.,g(x) = x^3 - 4x^2 + 5x - 2
+7,We want to find the roots of the polynomial p of x equals the quantity two x squared plus seven x plus five times the quantity x minus three. Plot all the zeros of this polynomial,"p(x) = (2x^2+7x+5)(x-3), x=-2.5, x = -1, x = 3"
+8,"Graph the polynomial with zeros at x equals zero, negative one, and three.",p(x) = x(x+1)(x-3)
+9,Write a polynomial of least degree with roots two and negative two and graph it,p(x) = (x+2)(x-2)

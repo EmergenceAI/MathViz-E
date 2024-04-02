@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Graph the parabola y equals negative one over twenty times the quantity x minus three squared plus six. Determine and state the equation of the maxima,"y=-1/20(x-3)^2+6 , (3, 6)"
+1,Find the local minima or maxima of y equals x squared minus x,"f(x) = x^2-x, (0.5, -0.25)"
+2,For what value of x does h of x equals x to the fifth plus x to the fourth have a relative maximum?,"h(x)=x^5+x^4, -0.8"
+3,For what value of x does f of x equals x cubed minus two x squred minus four x plus eight have a relative minimum?,"f(x)=x^3-2x^2-4x+8, 2"
+4,Consider the function f of x equals x cubed minus six x squared plus nine x plus four. Graph the function and identify all local minima and maxima," f(x) = x^3 - 6x^2 + 9x + 4, (1, 8), (3, 4)"
+5,"For the function g of x equals two x to the power of four minus four x cubed minus four x squared, determine the intervals on which the function is increasing or decreasing and identify any local minima or maxima","g(x) = 2x^4 - 4x^3 - 4x^2, (2, -16), (-0.5, -0.375)"
+6,"Given the function h of x equals four x cubed minus two x squared minus six x plus two, find the x-coordinate(s) of the local minima and maxima. Sketch the graph of the function to verify your answers.","h(x) = 4x^3 - 2x^2 - 6x + 2, (-0.56, 4.03), (0.893, -2.104)"
+7,Graph the function f of x equals x to the power of four minus four x squared plus three and locate all local minima and maxima. State whether each point is a minimum or maximum and provide the corresponding x-values," f(x) = x^4 - 4x^2 + 3, (-1.414, -1), (0, 3), (1.414, -1)"
+8,"Determine the local minima and maxima of the function g of x equals three x cubed minus nine x squared minus two x plus four by analyzing its graph. Also, indicate whether each point is a minimum or maximum","g(x) = 3x^3 - 9x^2 - 2x + 4 , (-0.106, 4.107), (2.106, -12.107)"
+9,Find the local extrema of y equals nine x to the fifth plus four x to the fourth plus x squared,"y=9x^5+4x^4+x^2, (-0.52, .221), (0, 0)"

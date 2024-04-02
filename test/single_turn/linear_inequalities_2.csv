@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Graph y < 3x + 10 and y > 8x - 9,"y < 3x + 10, y > 8x - 9"
+1,Graph the system of inequalities by plotting x greater than or equal to two and y less than two.," x>=2, y<2"
+2,"Solve the system of linear inequalities: y is less than or equal to two x minus three, y is greater than or equal to negative three, and y is less than or equal to negative one point two five x plus two point five."," y <= 2x-3, y>= -3, y<= -1.25x + 2.5"
+3,"Solve for the system: ""y is greater than x minus two, and y is less than or equal to two x plus two."""," y > x-2, y<= 2x+2"
+4,"Solve the system of linear inequalities: two x minus five y is less than or equal to three, y minus three x is less than or equal to one","2x-5y <= 3, y-3x <= 1"
+5,Graph 5x + 9y > 10 and y < 30,"5x + 9y > 10, y < 30"
+6,"Find the greatest integer that satisfies the inequality negative two times the quantity three x plus two is greater than x plus ten, or two x is less than or equal to negative eight."," -2(3x+2)>x+10, 2x <= -8"
+7,Find an integer solution to the inequality 'y is less than three-fourths x plus three' and 'y is less than or equal to negative two x minus one'.,"y<3/4x+3, y<= -2x-1"
+8,"Alex wants to make at least $300 this month. He makes $15/hr working as a babysitter and $10/hr working at an ice cream shop. He cannot work more than 25 hours this month. With x as the hours worked as a babysitter and y as the hours worked at the ice cream shop, graph the set of points that represent the number of hours Alex can work this month. ","x+y <= 25, 15x + 10y >= 300"
+9,"Jamie earns a base salary of $2000 per month. He makes $60 per computer sold, and $90 per tablet sold. He cannot sell more than 30 items in a month. If Jamie wants to make at least $4000 this month, how many computers and tablets can he sell this month? Graph this relationship using x for number of computers and y for number of tablets. ","x + y <= 30, 2000 + 60x + 90y >= 4000"

@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Plot point A, which has coordinates negative two and one, and its image A-prime, which is the result of reflecting A across the x-axis.","y = 0, (-2, 1), (-2, -1)"
+1,"The task is to find the image C prime of point C with coordinates -2 and 9 under a reflection over the line y equals 1 minus x. After finding C prime, plot both C prime and C on a graph.","y=1-x, (-2, 9), (-8, 3)"
+2,"Plot the rectangle with coordinates negative three, three; five, three; five, negative three; negative three, negative three and its reflection over the line y equals x minus five.","polygon((-3, 3), (5, 3), (5, -3), (-3, -3)), polygon((8, -8), (2, -8), (2, 0), (8, 0)), y = x - 5"
+3,Quadrilateral EFGH has coordinates negative one six three eight two two negative two three. Apply a translation moving EFGH to the left six units and down ten units. Plot EFGH and its image. ,"polygon((-1, 6), (3, 8), (2, 2), (-2, 3)), polygon((-7, -4), (-3, -2), (-4, -8), (-8, -7))"
+4,"Figure P has coordinates negative two, negative two, negative three, negative seven, negative six, negative two. Rotate P counterclockwise about the origin by 90 degrees. Plot P and its image. ","polygon((-2, -2), (-3, -7), (-6, -2)), polygon((2, -2), (7, -3), (2, -6))"
+5,"Plot point P with coordinates three, five and its image obtained by rotating it clockwise by ninety degrees about the origin.","(3, 5), (5, -3)"
+6,"Dilate point D about the origin with a scale factor of three. Point D has coordinates negative two, zero. Please plot point D and its image.","(-2, 0), (-6, 0)"
+7,"Dilate point A, which has coordinates ten, eleven, about point P, which has coordinates twelve, twelve, by a scale factor of three. Please plot point A, the image of A after dilation, and point P.","(10, 11), (12, 12), (6, 9)"
+8,"Triangle ABC has coordinates fourteen, one, two, nine, six, thirteen. Dilate ABC about center ten, five by a scale factor of one fourth. Plot ABC, the image of ABC, and the center of dilation.","(10, 5), polygon((14, 1), (2, 9), (6, 13)), polygon((11, 4), (8, 6), (9, 7))"
+9,"Reflect (2, 2) across the y-axis. ","(2, 2), (-2, 2)"

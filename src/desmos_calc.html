@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey={{ desmos_api_key }}"></script>
+
+    <title>Desmos Automation</title>
+    <link rel="stylesheet" href="static/desmos.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+
+</head>
+
+<body>
+    <div class="container-overall">
+        <div class="desmos-container">
+            <div id="calculator" class="calculator"></div>
+        </div>
+        <div class="user-input" id="chat-input">
+            <div id="user-message" contenteditable="true" class="default" placeholder="Type your message here or Press and hold M for speech..."></div>
+            <div id="clear-chat" class="clear-chat">Clear Chat</div>
+        </div>
+    </div>
+    <div id="chat-debug-overlay" class="overlay show">
+        <div id="chat-box"> </div>
+    </div>
+    <div id="overlay-icon" class="overlayicon expanded">
+    </div>
+    <script src="static/desmos.js"></script>
+    <script src="static/desmosUI.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Graph the function f of x equals two x plus one and determine its x-intercept, y-intercept, and any asymptotes.","f(x)=2x+1, (-0.5, 0), (0, 1)"
+1,"Graph the function f of x equals x squared minus four and find its x-intercepts, y-intercept, and any asymptotes. Also, determine if the graph has a maximum or minimum point.","f(x) = x^2 - 4, (0, -4)"
+2,"Graph the function f of x equals negative three x plus two and identify the x-intercept, y-intercept, and any asymptotes.","f(x) = -3x + 2, (2/3,0), (0,2)"
+3,"Graph the function f of x equals the quantity x plus 2 times the quantity x minus 3. Identify the x-intercepts, y-intercept, any asymptotes, and the minimum or maximum point.","f(x) = (x + 2)(x - 3), (-2,0), (3,0), (0,-6), (1/2,-25/4)"
+4,"Graph the function f of x equals one over the quantity x minus four. Identify the x-intercept, y-intercept, and any asymptotes.","f(x)=1/(x-4), (0,-1/4), x=4, y=0"
+5,"Graph the function f of x equals x cubed minus four x squared plus two x minus 1. Identify the x-intercepts, y-intercept, any asymptotes, and the minimum or maximum point.",f(x) = x^3 - 4x^2 + 2x - 1
+6,"Graph the function f of x equals square root of x on a coordinate plane. Identify the x-intercept, the y-intercept, and any asymptotes. ","f(x) = \sqrt{x}, (0,0), (0,0)"
+7,"Graph the function f of x equals two x squared plus three x plus one and determine the x-intercepts, y-intercept, any asymptotes, and the minimum or maximum point."," f(x) = 2x^2 + 3x + 1, (-1, 0), (-0.5, 0), (-0.75, -0.125), (0, 1)"
+8,"Graph the function f of x equals e to the power of x plus four and find the x-intercept, y-intercept, and any asymptotes.","f(x) = e^{x}+4, y=4, (0, 5)"
+9,"Graph the function f of x equals open parenthesis x minus one close parenthesis squared minus three. Identify the x-intercepts, y-intercept, any asymptotes, and the minimum or maximum point.","f(x) = (x - 1)^2 - 3, (-0.732, 0), (2.732, 0), (1, -3), (0, -2)"

@@ -1,0 +1,14 @@
+﻿id,query,ground truth
+0,"Consider a circle centered at two, seven with radius 5. Find a tangent line that passes through four, negative three","y = -1.16x+1.65, a = 2\tan^{-1}(4+3\sqrt{3})"
+1,"Consider a circle centered at two, seven with radius 5. Find a tangent line that passes through negative two, zero. ","y = 0.402x+0.81, a = 2\tan^{-1}(4+3\sqrt{3})"
+2,"Graph the circle with center at two, two and a radius of three. Also, draw a tangent line passing through the point negative two, two.","y = -1.133x-0.267, a=2(\pi-\tan^{-1}(\sqrt{7}))"
+3,"Graph the circle with center at one, negative one and radius six. Also, graph a tangent line passing through the point six, zero.","y = -0.46x+2.763, a = 2\tan^{-1}(1/8(1+\sqrt{17}))"
+4,"Graph the circle with center at negative three, four and radius two. Also, draw a tangent line passing through the point negative two, eight.","y = 1.07x+10.14, a=2\tan^{-1}(1/3(4+\sqrt{13}))"
+5,"Graph the circle with center at the origin and radius 2. Also, plot a tangent line passing through the point negative four, four.","y = -2.215x - 4.86, a=2(\pi-\tan^{-1}(2+\sqrt{7}))"
+6,"Graph the circle with center at two negative three and radius five. Also, graph a tangent line that passes through the point fifteen five.","y = 0.22x + 1.67, a=2\tan^{-1}(1/9(4+2\sqrt{13}))"
+7,"Graph the circle with center negative one, one and radius three, and plot a tangent line that passes through the point negative five, ten.","y = -9.16x - 35.81, a=2(\pi-\tan^{-1}(9+2\sqrt{22}))"
+8,"Graph a circle with center at four, negative two and radius three. Draw a tangent line that goes through the point nine, five.","y = 0.675x -1.08, a=2\tan^{-1}(1/8(7+\sqrt{65}))"
+9,"Graph the circle with center at one, two and radius three. Also, plot a tangent line passing through the point five,  three.","y = -0.64x + 6.2, a=2\tan^{-1}(1/7(1+2\sqrt{2}))"
+10,"Graph a circle tangent to the y-axis with a center at -2, 4.",(x+2)^2+(y-4)^2=4
+11,"Graph a circle with a radius of five that is tangent to the lines y equals four over three x minus fourteen over three, y equals negative four over three x minus two, and the x axis. ",(x-1)^2+(y-5)^2=25
+12,"Graph a circle tangent to the x-axis with a center of negative six, negative one. ",(x+6)^2+(y+1)^2=1

@@ -1,0 +1,22 @@
+﻿id,query,ground truth
+query 1,Graph y equals x squared ,y = x^2
+query 1,Shift the parabola to the left by four ,y = (x+4)^2
+query 2 ,f of x equals the quantity x plus three cubed minus nine ,f(x) = (x+3)^3 - 9 
+query 2 ,Graph f of negative x,h(x) = (-x+3)^3 - 9 
+query 3,Graph f of x equals log x plus seven ,f(x) = log(x) + 7
+query 3,Graph f of negative x,h(x) = log(-x) + 7 
+query 4,Graph a parabola at the origin ,y = x^2
+query 4,Shift the parabola up by two ,y = x^2 + 2
+query 4,Move the parabola to the right by three,y = (x-3)^2 + 2 
+query 5,Graph y equals the quantity x minus eight squared plus five,y = (x-8)^2 + 5
+query 5,Stretch the parabola vertically by a factor of four,y = 4(x-8)^2 + 5
+query 6,f of x equals five x to the fourth minus nine x cubed minus seven x squared ,f(x) = 5x^4 - 9x^3 - 7x^2
+query 6,Graph f of two x ,h(x) = 5(2x)^4 - 9(2x)^3 - 7(2x)^2
+query 7 ,Graph y equals x cubed ,y = x^3
+query 7 ,Reflect over the y axis ,y = -x^3
+query 8 ,Graph f of x equals x cubed ,y = x^3
+query 8 ,Graph the absolute value of f of x ,y = |x^3|
+query 9 ,f of x equals e to the quantity x plus four,f(x) = e^(x+4)
+query 9 ,Reflect over the x axis ,f(x) = -e^(x+4)
+query 10 ,Graph the absolute value of the quantity x minus four ,y = |x-4|
+query 10 ,Reflect over the x axis ,y = - |x-4|

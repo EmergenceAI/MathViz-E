@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,"Graph a line that contains the point four, three and has a slope of one half.",y=1/2(x) +1
+1,"Graph a line with a slope of four that contains the point three, zero.",y=4x - 12
+2,"Graph a line that contains the point negative seven, negative four and has a slope of two thirds.",y + 4 =2/3(x + 7)
+3,"Find the equation and graph the line through two, one and five, negative eight",y=-3x+7
+4,Graph y equals two thirds x minus four,y=(2/3)x - 4
+5,Graph a line parallel to y = 6x - 4 with a y-intercept of 10,y = 6x - 10
+6,Graph the line perpendicular to y equals five x plus three with a y intercept of nine. ,y=(-1/5)x + 9. 
+7,"A phone company offers a plan that costs a $25 base fee plus $10 for every GB of data used. Write an equation for the total cost, y, in terms of the number of GB used, x. ",y = 25 + 10x
+8,"A bakery sells loaves of bread for $8, and their daily expenses are $200. Write an equation for the bakery's daily profit, y, in terms of the number of loaves sold, x. ",y = 8x - 200
+9,"At sunrise, the temperature is 60 degrees F. The temperature increases at a constant rate of 2 degrees per hour. Graph the relationship between temperature in degrees, y, and number of hours passed, x. ",y = 60 + 2x

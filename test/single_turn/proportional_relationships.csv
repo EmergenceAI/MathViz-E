@@ -1,0 +1,11 @@
+﻿id,query,ground truth
+0,Graph y equals two point five x.,y=2.5x
+1,Graph y equals three point five x.,y=3.5x
+2,Graph y equals four x.,y=4x
+3,Graph y equals ten x.,y=10x
+4,Graph y equals x over ten. ,y = x/10
+5,"A car travels 35 miles on one gallon of gasoline. Graph the relationship between gallons of gas in the car's tank, x, and distance in miles the car can travel, y. ",y=35x
+6,"A recipe for chocolate chips requires 3 cups of flour to make 24 cookies. There is a proportional relationship between the number of cups of flour, x, and the number of cookies made, y. Graph this relationship. ",y=8x
+7,"1 US dollar is equivalent to 0.9 euros. With x representing number of dollars and y representing number of euros, write an equation describing the proportional relationship between dollars and euros. ",y = 0.9x
+8,"A runner runs 5 kilometers in 25 minutes. With minutes as x and kilometers as y, graph the relationship between minutes run and kilometers traveled if the runner stays at the same speed. ",y = x/5
+9,"A garden hose fills a bucket with 2 gallons of water in 1 minute. There is a proportional relationship between minutes passed, x, and gallons in the bucket, y. Graph this relationship. ",y = 2x

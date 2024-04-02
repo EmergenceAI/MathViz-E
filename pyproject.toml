@@ -1,0 +1,56 @@
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build_api"
+
+[project]
+name = "math-agent-automation"
+version = "0.1.0"
+description = "Web automation tool for agents to perform tasks on web applications."
+authors = [
+    { name = "Arya Bulusu", email = "arya.bulusu@merlyn.org" },
+    { name = "Ashish Jagmohan", email = "ashish@merlyn.org" },
+    { name = "Aditya Vempaty", email = "aditya@merlyn.org" },
+    { name = "Deepak Akkil", email = "deepak.akkil@merlyn.org" },
+    { name = "Tamer Abuelsaad", email = "tea@merlyn.org" },
+]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/XioResearchInterGalactic/rnd-desmos-automation"
+requires-python = ">=3.11"
+dependencies = [
+    "Flask==2.2.3",
+    "openai==1.12.0",
+    "python-dotenv==1.0.0",
+    "Werkzeug==2.2.2",
+    "requests==2.28.2"
+]
+
+[project.scripts]
+run = "main.py"
+
+[tool.uv.dev-dependencies]
+# Ruff as a dev dependency for linting
+ruff = "^0.0.79"
+
+[tool.ruff]
+src = ["app"]
+fix = false
+show-fixes = true
+show-source = true
+line-length = 250
+
+[tool.ruff.lint]
+select = [
+    "B",  # flake8-bugbear
+    "E",  # pycodestyle error
+    "F",  # pyflakes
+    "I",  # isort
+    "UP",  # pyupgrade
+    "W",  # pycodestyle warning
+]
+#ignore = ["E501"]  # Ignore the "line too long" rule
+
+
+[tool.ruff.lint.isort]
+force-single-line = true
+order-by-type = false
