@@ -191,7 +191,7 @@ Desmos expressions: [
 '''
 
 DESMOS_START_PROMPT = '''
-If you're asked to transform an existing expression, update it the value of the expression by appying setExpression to the existing expression. Do this only if you are explicitly asked to modify the existing expression (for example by shifting, rotating, scaling etc.) If a new expression is asked to be graphed, do not remove the existing expression.
+If you're asked to transform an existing expression, update it with the value of the expression by appying setExpression to the existing expression. Do this only if you are explicitly asked to modify the existing expression (for example by shifting, rotating, scaling etc.) If a new expression is asked to be graphed, do not remove the existing expression.
 Remember, do not use the symbols x, y or r for parameters.
 Also remember, use the symbols x and y for variables, since Desmos only supports implicit equations of x and y.
 And, to draw a line, simplify the equation.
