@@ -104,14 +104,11 @@ Answer: |
  | f(x) has a local minimum at x = 0
 
 You generate:
-Thought: I need to create an expression for the equation f(x) = 6x^2 + 4. In order to graph the local minimum, I need to solve for the y-value at x = 0.
+Thought: I need to create an expression for the equation f(x) = 6x^2 + 4 and graph the local minimum. 
 
-f(0) = 6(0)^2 + 4 = 0 + 4 = 4
-
-The local minimum occurs at (0, 4).
 Desmos expressions: [
 {"action": "setExpression", "expression": {"type":"expression","id":"function","latex":"f(x) = 6x^2 + 4","hidden":false}},
-{"action": "setExpression", "expression": {"type":"expression","id":"local_minimum","latex":"(0,4)","hidden":false}}
+{"action": "setExpression", "expression": {"type":"expression","id":"local_minimum","latex":"(0,f(0))","hidden":false}}
 ]
 
 For example, if you are asked:
